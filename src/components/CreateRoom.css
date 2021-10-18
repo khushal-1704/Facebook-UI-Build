@@ -1,0 +1,53 @@
+.createRoom {
+  width: 85%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #242526;
+  border-radius: 15px;
+  box-shadow: 0 5px 7px -7px rgba(0, 0, 0, 0.75);
+  padding: 10px 20px;
+}
+
+.messageSender {
+  width: 80%;
+}
+.create__option {
+  display: flex;
+  align-items: center;
+  border: 5px solid #263951;
+  border-radius: 30px;
+  padding: 0 10px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.create__option > h3 {
+  margin-left: 5px;
+  font-weight: medium;
+  color: #3476ea;
+}
+
+.online__people {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left: 5px;
+}
+
+.people {
+  margin-left: 10px;
+  position: relative;
+}
+
+.people::after {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: green;
+  border: 1px solid rgba(0, 0, 0, 0.733);
+  bottom: 0;
+  right: 0;
+}

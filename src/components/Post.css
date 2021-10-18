@@ -1,0 +1,87 @@
+.post {
+  margin-top: 10px;
+  width: 90%;
+  height: 500px;
+  background-color: #232426;
+  padding: 20px 0;
+  border-radius: 15px;
+  position: relative;
+  /* box-shadow: 0 5px 8px 9px rgb(0 0 0 / 75%); */
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.post__header {
+  /* background-color: blanchedalmond; */
+  border-radius: 15px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 0;
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.post__info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.post__top {
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.post__mid {
+  margin-top: 5px;
+  background-color: pink;
+  width: 100%;
+  height: 80%;
+}
+
+.post__mid > img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.post__bottom {
+  margin-top: 5px;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bottom__option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1px;
+  position: relative;
+  cursor: pointer;
+}
+
+.bottom__option > span {
+  padding: 0 10px;
+}
+
+.btn--1:hover:after {
+  position: absolute;
+  padding: 5px 2px;
+  top: -40px;
+  left: -10px;
+  content: "😂😘😁😜😢😎😉💋";
+  background-color: rgb(80, 78, 78);
+  border-radius: 10px;
+  height: 20px;
+  width: 190px;
+}
+
+.btn--2:hover {
+  color: yellow;
+}
+
+.btn--3:hover {
+  color: green;
+}
